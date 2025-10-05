@@ -8,15 +8,21 @@
     "email":  {
         "smtp_server": "smtp.exmail.qq.com",
         "smtp_port": 465,
-        "from": "pjt@zaijidata.com",
+        "from": "441098943@qq.com",
         "password": "",
-        "to": "test@zaijidata.com"
+        "to": "paulhui@seismic.com"
     },
     "llm": {
-        "model_type": "ollama",
+        "model_type": "azure",
         "openai_model_name": "gpt-4o-mini",
         "ollama_model_name": "llama3.1",
-        "ollama_api_url": "http://localhost:11434/api/chat"
+        "ollama_api_url": "http://localhost:11434/api/chat",
+        "azure": {
+            "base_url": "https://testazureai7175432599.cognitiveservices.azure.com/",
+            "deployment_name": "gpt-4o",
+            "api_key": "",
+            "api_version": "2024-12-01-preview"
+        }
     },
     "report_types": [
         "github",
